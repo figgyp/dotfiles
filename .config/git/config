@@ -1,0 +1,18 @@
+# This is Git's per-user configuration file.
+[user]
+  	name = James Drury
+  	email = 5431100+jdrury@users.noreply.github.com
+[init]
+  	defaultBranch = main
+[core]
+ 	pager = delta
+  	editor = nvim
+[color]
+	status = auto
+	branch = auto
+	interactive = auto
+	diff = auto
+[push]
+	autoSetupRemote = true
+[pager]
+	branch = false
