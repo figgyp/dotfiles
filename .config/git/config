@@ -5,7 +5,7 @@
 [init]
   	defaultBranch = main
 [core]
- 	pager = delta
+	pager = less
   	editor = nvim
 [color]
 	status = auto
