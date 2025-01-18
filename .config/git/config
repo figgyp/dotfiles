@@ -1,12 +1,13 @@
-# This is Git's per-user configuration file.
 [user]
-  	name = James Drury
+ 	name = James Drury
 	email = 174389827+pomelorian@users.noreply.github.com
+[includeIf "gitdir:~/code/"]
+    path = ~/.config/git/config-jdrury
 [init]
-  	defaultBranch = main
+ 	defaultBranch = main
 [core]
 	pager = less
-  	editor = nvim
+	editor = vim
 [color]
 	status = auto
 	branch = auto

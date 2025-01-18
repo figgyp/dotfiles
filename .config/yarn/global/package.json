@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@tobiastengler/create-relay-app": "^2.1.2",
+    "create-create": "^0.1.4"
+  }
+}

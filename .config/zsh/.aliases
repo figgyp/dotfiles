@@ -1,6 +1,7 @@
 alias home="cd $HOME"
 alias config='/usr/bin/git --git-dir=$HOME/.config-bare/ --work-tree=$HOME'
 alias dev="cd $HOME/dev"
+alias mo="cd $HOME/dev/pomebile"
 
 alias lg="lazygit"
 
@@ -13,7 +14,7 @@ alias gd="git diff"
 alias gl="git log"
 
 alias gb="git branch"
-alias gbc="git checkout"
+alias gco="git checkout"
 alias gbn="git checkout -b"
 alias gbd="git branch -D"
 
